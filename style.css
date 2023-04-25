@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+.style {
+    @apply text-2xl p-10 text-slate-800 font-mono font-semibold lg:text-3xl
+}
+.layout{
+    @apply h-32 mx-auto sm:h-40 lg:h-60 
+}
+@tailwind utilities;
